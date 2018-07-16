@@ -1,0 +1,7 @@
+<h1>The list</h1>
+
+<% @cookbook_all.each do |recipe| %>
+  <p><%= recipe.name %></p>
+<% end %>
+
+<a href="#{url '/index'}">Sign up!</a>
